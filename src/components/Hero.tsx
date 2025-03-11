@@ -34,10 +34,6 @@ const Hero = () => {
               
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-6 text-muted-foreground">
                 <div className="flex items-center gap-2">
-                  <Phone className="h-4 w-4" />
-                  <span>+91 847 381 2601</span>
-                </div>
-                <div className="flex items-center gap-2">
                   <Mail className="h-4 w-4" />
                   <span>de3p.me@gmail.com</span>
                 </div>
