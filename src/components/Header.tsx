@@ -109,12 +109,12 @@ export const Header = () => {
                 </a>
               ))}
               <div className="pt-4 flex justify-start space-x-4 border-t border-gray-200 dark:border-gray-700">
-                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/mrdeeeeep" target="_blank" rel="noopener noreferrer">
                   <Button variant="ghost" size="icon" aria-label="GitHub">
                     <Github className="h-5 w-5" />
                   </Button>
                 </a>
-                <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/feed/update/urn:li:activity:7311336550540161024/" target="_blank" rel="noopener noreferrer">
                   <Button variant="ghost" size="icon" aria-label="LinkedIn">
                     <Linkedin className="h-5 w-5" />
                   </Button>
