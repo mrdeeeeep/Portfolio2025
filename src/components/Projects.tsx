@@ -17,6 +17,50 @@ interface Project {
 const Projects = () => {
   const projects: Project[] = [
     {
+      title: "Portfolio Website",
+      year: "2025",
+      description: [
+        "Built a personal portfolio website to showcase my projects and skills.",
+      ],
+      technologies: ["React", "TypeScript", "Tailwind CSS"],
+      icon: 'code',
+      link: "https://deepbaro.netlify.app/",
+      githubLink: "https://github.com/mrdeeeeep/Portfolio2025"
+    },
+    {
+      title: "Roadmap Builder - nextSkill",
+      year: "2025",
+      description: [
+        "Built a roadmap builder to help users create personalized learning paths.",
+      ],
+      technologies: ["React", "TypeScript", "Tailwind CSS", "Supabase",],
+      icon: 'code',
+      link: "https://nextskill.netlify.app/",
+      githubLink: "https://github.com/mrdeeeeep/roadmapBuilder"
+    },
+    {
+      title: "Todo App - ProcastinEater",
+      year: "2025",
+      description: [
+        "Built a todo app to help users manage their tasks efficiently.",
+      ],
+      technologies: ["React", "TypeScript", "Tailwind CSS"],
+      icon: 'code',
+      link: "https://procastineater.netlify.app/",
+      githubLink: "https://github.com/mrdeeeeep/ToDoApp-ProcastinEater"
+    },
+    {
+      title: "Attendance Tracker - AttendX",
+      year: "2024",
+      description: [
+        "Developed a web application for tracking attendance in college lectures."
+      ],
+      technologies: ["React", "Node.js", "MongoDB"],
+      link: "https://attendxtracker.netlify.app/",
+      icon: 'globe',
+      githubLink: "https://github.com/mrdeeeeep/AttendanceTrackerAttendX"
+    },
+    {
       title: "Facial Emotion Detection using ML",
       year: "2023",
       description: [
@@ -24,7 +68,6 @@ const Projects = () => {
       ],
       technologies: ["Python", "ML", "Computer Vision"],
       icon: 'code',
-      githubLink: "https://github.com/username/emotion-detection"
     },
     {
       title: "Workplace Posture Correction System",
@@ -41,27 +84,18 @@ const Projects = () => {
       description: [
         "Designed and implemented an NLP-based chatbot to assist employees with DOP-related queries."
       ],
-      technologies: ["NLP", "Python", "AI"],
+      technologies: ["NLP", "Python", "AI", "LLM"],
       icon: 'code',
       githubLink: "https://github.com/username/dop-chatbot"
     },
-    {
-      title: "AttendX",
-      year: "2024",
-      description: [
-        "Developed a web application for tracking attendance in college lectures."
-      ],
-      technologies: ["Web Development", "Database", "JavaScript"],
-      icon: 'globe',
-      githubLink: "https://github.com/username/attendx"
-    },
+
     {
       title: "iOS Attendance Tracker",
       year: "2024",
       description: [
         "Developed an iOS app for students to track attendance, timetable, and tasks."
       ],
-      technologies: ["Swift", "iOS", "Mobile Development"],
+      technologies: ["Swift", "iOS", "XCode"],
       icon: 'rocket'
     }
   ];
